@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # rentsyswebsite
 
 ## Project setup
@@ -27,3 +28,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# RentSysWebpage
+>>>>>>> a54f6a9b7403144466828ee9067b4a3a87c7d612
