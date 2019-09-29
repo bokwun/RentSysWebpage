@@ -36,8 +36,8 @@ server {
         listen 8088;
 
         location / {
-		        proxy_pass  http://192.168.1.108:8081;
-          	proxy_redirect  off;
+	    proxy_pass  http://192.168.1.108:8081;
+            proxy_redirect  off;
             proxy_set_header   Host    $host;
             proxy_set_header   X-Real-IP        $remote_addr;
             proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
